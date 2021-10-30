@@ -9,6 +9,8 @@
 // This address is what we will use in our client application to talk to the smart contract. 
 // Keep this address available as we will need to use it when connecting to it from the client application.
 
+// Ropster Greeter deployed to: 0xAcEf63D14dB053920A98661a971A16ACeD9b9564
+
 
 const hre = require("hardhat");
 

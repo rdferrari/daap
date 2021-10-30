@@ -3,8 +3,15 @@ import { useState } from 'react';
 import { ethers } from 'ethers'
 import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json'
 
+// Greeter deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+// This address is what we will use in our client application to talk to the smart contract. 
+// Keep this address available as we will need to use it when connecting to it from the client application.
+
+// Ropster Greeter deployed to: 0xAcEf63D14dB053920A98661a971A16ACeD9b9564
+
 // Update with the contract address logged out to the CLI when it was deployed 
-const greeterAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+const greeterAddress = "0xAcEf63D14dB053920A98661a971A16ACeD9b9564"
 
 function App() {
   // store greeting in local state
